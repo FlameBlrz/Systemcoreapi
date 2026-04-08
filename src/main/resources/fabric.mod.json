@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "systemcoreapi",
+  "version": "1.0.0",
+  "name": "System Core API",
+  "description": "Utility Mod",
+  "authors": ["FlameBlrz"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.fabricmc.example.ExampleMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21",
+    "java": ">=21"
+  }
+}
